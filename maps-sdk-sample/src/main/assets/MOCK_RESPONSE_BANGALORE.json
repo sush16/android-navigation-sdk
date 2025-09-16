@@ -1,0 +1,264 @@
+{
+   "status": "SUCCESS",
+   "geocoded_waypoints": [
+      {
+         "geocoder_status": "OK",
+         "place_id": "tdr1w4n36",
+         "types": []
+      },
+      {
+         "geocoder_status": "OK",
+         "place_id": "tdr1w3ft6",
+         "types": []
+      }
+   ],
+   "routes": [
+      {
+         "summary": "",
+         "legs": [
+            {
+               "steps": [
+                  {
+                     "instructions": "Head west",
+                     "distance": 225,
+                     "readable_distance": "0 km 225 metres",
+                     "maneuver": "depart",
+                     "duration": 44,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.9311,
+                        "lng": 77.61609
+                     },
+                     "end_location": {
+                        "lat": 12.9315,
+                        "lng": 77.61405
+                     },
+                     "bearing_before": 0,
+                     "bearing_after": 282,
+                     "geometry": "kr|mAqkvxMAPe@nDc@lDALAX"
+                  },
+                  {
+                     "instructions": "Turn left onto Hosur Road",
+                     "distance": 207,
+                     "readable_distance": "0 km 207 metres",
+                     "maneuver": "turn-left",
+                     "duration": 79,
+                     "readable_duration": "0 hours 2 minutes",
+                     "start_location": {
+                        "lat": 12.9315,
+                        "lng": 77.61405
+                     },
+                     "end_location": {
+                        "lat": 12.92987,
+                        "lng": 77.61495
+                     },
+                     "bearing_before": 271,
+                     "bearing_after": 181,
+                     "geometry": "{t|mAy~uxM^?d@WnAk@hBcAHEb@UVO"
+                  },
+                  {
+                     "instructions": "Make a slight left onto Sarjapura Road",
+                     "distance": 695,
+                     "readable_distance": "0 km 695 metres",
+                     "maneuver": "turn-slight-left",
+                     "duration": 269,
+                     "readable_duration": "0 hours 5 minutes",
+                     "start_location": {
+                        "lat": 12.92987,
+                        "lng": 77.61495
+                     },
+                     "end_location": {
+                        "lat": 12.927600000000002,
+                        "lng": 77.62092000000001
+                     },
+                     "bearing_before": 147,
+                     "bearing_after": 108,
+                     "geometry": "uj|mAmdvxMJSHa@@CL_@Pc@FUDSJc@Lg@dBiGzFaTBI"
+                  },
+                  {
+                     "instructions": "Turn left onto Mahayogi Vemana Road",
+                     "distance": 334,
+                     "readable_distance": "0 km 334 metres",
+                     "maneuver": "turn-left",
+                     "duration": 49,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.9276,
+                        "lng": 77.62092
+                     },
+                     "end_location": {
+                        "lat": 12.93042,
+                        "lng": 77.62205
+                     },
+                     "bearing_before": 109,
+                     "bearing_after": 19,
+                     "geometry": "o|{mAwiwxMMEMCkGmByFcBQE"
+                  },
+                  {
+                     "instructions": "You have arrived at your destination, on the left",
+                     "distance": 0,
+                     "readable_distance": "0 km 0 metres",
+                     "maneuver": "arrive",
+                     "duration": 0,
+                     "readable_duration": "0 hours 0 minutes",
+                     "start_location": {
+                        "lat": 12.93042,
+                        "lng": 77.62205
+                     },
+                     "end_location": {
+                        "lat": 12.93042,
+                        "lng": 77.62205
+                     },
+                     "bearing_before": 22,
+                     "bearing_after": 0,
+                     "geometry": "cn|mAypwxM"
+                  }
+               ],
+               "distance": 1462,
+               "readable_distance": "1.46",
+               "duration": 443,
+               "readable_duration": "0 hours 8 minutes",
+               "start_location": {
+                  "lat": 12.931097,
+                  "lng": 77.616087
+               },
+               "end_location": {
+                  "lat": 12.930415,
+                  "lng": 77.622051
+               },
+               "start_address": "12.931097,77.616087",
+               "end_address": "12.930415,77.622051"
+            }
+         ],
+         "overview_polyline": "kr|mAqkvxMAPe@nDc@lDALAX^?d@WnAk@hBcAHEb@UVOJSHa@@CL_@Pc@FUDSJc@Lg@dBiGzFaTBIMEMCkGmByFcBQE",
+         "travel_advisory": "",
+         "bounds": {},
+         "copyrights": "OLA Map data ©2022",
+         "warnings": []
+      },
+      {
+         "summary": "",
+         "legs": [
+            {
+               "steps": [
+                  {
+                     "instructions": "Head west",
+                     "distance": 225,
+                     "readable_distance": "0 km 225 metres",
+                     "maneuver": "depart",
+                     "duration": 44,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.9311,
+                        "lng": 77.61609
+                     },
+                     "end_location": {
+                        "lat": 12.9315,
+                        "lng": 77.61405
+                     },
+                     "bearing_before": 0,
+                     "bearing_after": 282,
+                     "geometry": "kr|mAqkvxMAPe@nDc@lDALAX"
+                  },
+                  {
+                     "instructions": "Turn left onto Hosur Road",
+                     "distance": 701,
+                     "readable_distance": "0 km 701 metres",
+                     "maneuver": "turn-left",
+                     "duration": 159,
+                     "readable_duration": "0 hours 3 minutes",
+                     "start_location": {
+                        "lat": 12.9315,
+                        "lng": 77.61405
+                     },
+                     "end_location": {
+                        "lat": 12.92604,
+                        "lng": 77.61728000000001
+                     },
+                     "bearing_before": 271,
+                     "bearing_after": 181,
+                     "geometry": "{t|mAy~uxM^?d@WnAk@hBcAHEb@UVOt@e@LIZUf@WjQ}Ih@U"
+                  },
+                  {
+                     "instructions": "Make a slight left",
+                     "distance": 180,
+                     "readable_distance": "0 km 180 metres",
+                     "maneuver": "turn-slight-left",
+                     "duration": 47,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.92604,
+                        "lng": 77.61728
+                     },
+                     "end_location": {
+                        "lat": 12.92468,
+                        "lng": 77.61821
+                     },
+                     "bearing_before": 153,
+                     "bearing_after": 137,
+                     "geometry": "wr{mA_svxMd@a@nBiAdBaADCHEBA"
+                  },
+                  {
+                     "instructions": "Turn left onto Mahayogi Vemana Road",
+                     "distance": 801,
+                     "readable_distance": "0 km 801 metres",
+                     "maneuver": "turn-left",
+                     "duration": 267,
+                     "readable_duration": "0 hours 5 minutes",
+                     "start_location": {
+                        "lat": 12.92468,
+                        "lng": 77.61821
+                     },
+                     "end_location": {
+                        "lat": 12.930420000000002,
+                        "lng": 77.62205
+                     },
+                     "bearing_before": 147,
+                     "bearing_after": 66,
+                     "geometry": "gj{mAyxvxMs@uBsAsDEOc@q@m@a@ICsGkBc@OSGQGMEMCkGmByFcBQE"
+                  },
+                  {
+                     "instructions": "You have arrived at your destination, on the left",
+                     "distance": 0,
+                     "readable_distance": "0 km 0 metres",
+                     "maneuver": "arrive",
+                     "duration": 0,
+                     "readable_duration": "0 hours 0 minutes",
+                     "start_location": {
+                        "lat": 12.93042,
+                        "lng": 77.62205
+                     },
+                     "end_location": {
+                        "lat": 12.93042,
+                        "lng": 77.62205
+                     },
+                     "bearing_before": 22,
+                     "bearing_after": 0,
+                     "geometry": "cn|mAypwxM"
+                  }
+               ],
+               "distance": 1908,
+               "readable_distance": "1.91",
+               "duration": 518,
+               "readable_duration": "0 hours 9 minutes",
+               "start_location": {
+                  "lat": 12.931097,
+                  "lng": 77.616087
+               },
+               "end_location": {
+                  "lat": 12.930415,
+                  "lng": 77.622051
+               },
+               "start_address": "12.931097,77.616087",
+               "end_address": "12.930415,77.622051"
+            }
+         ],
+         "overview_polyline": "kr|mAqkvxMAPe@nDc@lDALAX^?d@WnAk@hBcAHEb@UVOt@e@LIZUf@WjQ}Ih@Ud@a@nBiAdBaADCHEBAs@uBsAsDEOc@q@m@a@ICsGkBc@OSGQGMEMCkGmByFcBQE",
+         "travel_advisory": "",
+         "bounds": {},
+         "copyrights": "OLA Map data ©2022",
+         "warnings": []
+      }
+   ],
+   "source_from": "marauder"
+}

@@ -1,0 +1,39 @@
+[versions]
+coreKtx = "1.10.1"
+moeAndroidSdk = "12.6.01"
+androidGradlePlugin = "7.3.1"
+kotlinVersion = "1.8.22"
+mapboxMapSdk = "10.2.0"
+mapboxSdkServices = "5.9.0"
+maplibreAnnotation = "1.0.0"
+lifecycleVersion = "2.0.0"
+supportConstraintLayout = "2.1.4"
+supportAppcompatV7 = "1.5.1"
+supportDesignMaterial = "1.7.0"
+okhttpVersion = "4.12.0"
+markerview = "1.0.0"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttpVersion" }
+moe-android-sdk = { module = "com.moengage:moe-android-sdk", version.ref = "moeAndroidSdk" }
+
+maplibre-sdk = { group = "org.maplibre.gl", name = "android-sdk", version.ref = "mapboxMapSdk" }
+maplibre-services = { group = "org.maplibre.gl", name = "android-sdk-services", version.ref = "mapboxSdkServices" }
+maplibre-turf = { group = "org.maplibre.gl", name = "android-sdk-turf", version.ref = "mapboxSdkServices" }
+maplibre-annotation = { group = "org.maplibre.gl", name = "android-plugin-annotation-v9", version.ref = "maplibreAnnotation" }
+maplibre-directions = { group = "org.maplibre.gl", name = "android-sdk-directions-models", version.ref = "mapboxSdkServices" }
+maplibre-markerview = { group = "org.maplibre.gl", name = "android-plugin-markerview-v9", version.ref = "markerview" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "supportAppcompatV7" }
+material-design = { group = "com.google.android.material", name = "material", version.ref = "supportDesignMaterial" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "supportConstraintLayout" }
+lifecycle-extensn = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleVersion" }
+lifecycle-compiler = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "lifecycleVersion" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlinVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlinVersion" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlinVersion" }

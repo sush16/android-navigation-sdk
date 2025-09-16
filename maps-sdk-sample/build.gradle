@@ -1,0 +1,85 @@
+plugins {
+    alias libs.plugins.android.application
+    alias libs.plugins.kotlin.android
+    alias libs.plugins.kapt
+}
+
+ext.CONFIG_BASE_PATH = "${rootDir}/app/config/"
+
+android {
+    namespace 'com.ola.maps.sample'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.ola.maps.sample"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.3.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    def CONFIG_FILE_NAMES = fileTree(CONFIG_BASE_PATH).filter { it.isFile() }.files.name
+    flavorDimensions "maps-sdk"
+    productFlavors {
+        CONFIG_FILE_NAMES.each { String s ->
+            "${getFlavorName("$s")}" {
+                dimension "maps-sdk"
+
+                if ("$s".contains("hmi")) {
+                    manifestPlaceholders = [sharedUserId: "android.uid.system"]
+                } else {
+                    //Placeholder key "sharedUserId" is required for manifest
+                    manifestPlaceholders = [sharedUserId: ""]
+                }
+            }
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
+}
+def getFlavorName(String filename) {
+    def propertiesFilename = filename.replace(".properties", "")
+    return propertiesFilename
+}
+
+dependencies {
+    implementation(files("libs/maps-navigation-sdk-1.0.116.aar"))
+    implementation libs.logging.interceptor
+
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material.design
+    implementation libs.constraintlayout
+
+
+    //Ola Maps Navigation SDK
+    implementation(libs.moe.android.sdk)
+    implementation libs.maplibre.sdk
+    implementation libs.maplibre.directions
+    implementation libs.maplibre.services
+    implementation libs.maplibre.markerview
+    implementation libs.maplibre.annotation
+    implementation libs.maplibre.turf
+    // Architecture libraries
+    implementation libs.lifecycle.extensn
+
+    annotationProcessor libs.lifecycle.compiler
+}

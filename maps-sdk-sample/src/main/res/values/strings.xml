@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OlaMapDemo</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="kannada">Kannada</string>
+    <string name="telugu">Telugu</string>
+    <string name="tamil">Tamil</string>
+</resources>

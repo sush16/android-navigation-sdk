@@ -1,0 +1,263 @@
+{
+   "status": "SUCCESS",
+   "geocoded_waypoints": [
+      {
+         "geocoder_status": "OK",
+         "place_id": "tdr1w1vpc",
+         "types": []
+      },
+      {
+         "geocoder_status": "OK",
+         "place_id": "tdr1w1xgt",
+         "types": []
+      },
+      {
+         "geocoder_status": "OK",
+         "place_id": "tdr1w35xj",
+         "types": []
+      },
+      {
+         "geocoder_status": "OK",
+         "place_id": "tdr1w2zbu",
+         "types": []
+      }
+   ],
+   "routes": [
+      {
+         "summary": "",
+         "legs": [
+            {
+               "steps": [
+                  {
+                     "instructions": "Head southeast on Hosur Road",
+                     "distance": 130,
+                     "readable_distance": "0 km 130 metres",
+                     "maneuver": "depart",
+                     "duration": 32,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.93088,
+                        "lng": 77.61432
+                     },
+                     "end_location": {
+                        "lat": 12.92987,
+                        "lng": 77.61495
+                     },
+                     "bearing_before": 0,
+                     "bearing_after": 152,
+                     "geometry": "_q|mAo`vxMXMhBcAHEb@UVO"
+                  },
+                  {
+                     "instructions": "Make a slight left onto Sarjapura Road",
+                     "distance": 144,
+                     "readable_distance": "0 km 144 metres",
+                     "maneuver": "turn-slight-left",
+                     "duration": 18,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.92987,
+                        "lng": 77.61495
+                     },
+                     "end_location": {
+                        "lat": 12.92941,
+                        "lng": 77.61619
+                     },
+                     "bearing_before": 147,
+                     "bearing_after": 112,
+                     "geometry": "uj|mAmdvxMTu@\\kAH]Pq@Je@"
+                  },
+                  {
+                     "instructions": "Make a slight left",
+                     "distance": 238,
+                     "readable_distance": "0 km 238 metres",
+                     "maneuver": "turn-slight-left",
+                     "duration": 42,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.92941,
+                        "lng": 77.61619
+                     },
+                     "end_location": {
+                        "lat": 12.928730000000002,
+                        "lng": 77.61827000000001
+                     },
+                     "bearing_before": 108,
+                     "bearing_after": 97,
+                     "geometry": "yg|mAelvxMFy@hAwEJ[h@qB"
+                  },
+                  {
+                     "instructions": "You have arrived at your destination, on the left",
+                     "distance": 0,
+                     "readable_distance": "0 km 0 metres",
+                     "maneuver": "arrive",
+                     "duration": 0,
+                     "readable_duration": "0 hours 0 minutes",
+                     "start_location": {
+                        "lat": 12.92873,
+                        "lng": 77.61827
+                     },
+                     "end_location": {
+                        "lat": 12.92873,
+                        "lng": 77.61827
+                     },
+                     "bearing_before": 111,
+                     "bearing_after": 0,
+                     "geometry": "qc|mAeyvxM"
+                  }
+               ],
+               "distance": 513,
+               "readable_distance": "0.51",
+               "duration": 93,
+               "readable_duration": "0 hours 2 minutes",
+               "start_location": {
+                  "lat": 12.930876,
+                  "lng": 77.614317
+               },
+               "end_location": {
+                  "lat": 12.928728,
+                  "lng": 77.61827
+               },
+               "start_address": "12.930876,77.614317",
+               "end_address": "12.928728,77.61827"
+            },
+            {
+               "steps": [
+                  {
+                     "instructions": "Head southeast on Sarjapura Road",
+                     "distance": 607,
+                     "readable_distance": "0 km 607 metres",
+                     "maneuver": "depart",
+                     "duration": 96,
+                     "readable_duration": "0 hours 2 minutes",
+                     "start_location": {
+                        "lat": 12.92873,
+                        "lng": 77.61827
+                     },
+                     "end_location": {
+                        "lat": 12.926639999999999,
+                        "lng": 77.62344999999999
+                     },
+                     "bearing_before": 0,
+                     "bearing_after": 111,
+                     "geometry": "qc|mAeyvxMt@oCpCuJFSHSZeArAaEl@mBd@_BBG"
+                  },
+                  {
+                     "instructions": "You have arrived at your destination",
+                     "distance": 0,
+                     "readable_distance": "0 km 0 metres",
+                     "maneuver": "arrive",
+                     "duration": 0,
+                     "readable_duration": "0 hours 0 minutes",
+                     "start_location": {
+                        "lat": 12.92664,
+                        "lng": 77.62345
+                     },
+                     "end_location": {
+                        "lat": 12.92664,
+                        "lng": 77.62345
+                     },
+                     "bearing_before": 114,
+                     "bearing_after": 0,
+                     "geometry": "ov{mAqywxM"
+                  }
+               ],
+               "distance": 607,
+               "readable_distance": "0.61",
+               "duration": 96,
+               "readable_duration": "0 hours 2 minutes",
+               "start_location": {
+                  "lat": 12.928728,
+                  "lng": 77.61827
+               },
+               "end_location": {
+                  "lat": 12.926642,
+                  "lng": 77.623445
+               },
+               "start_address": "12.928728,77.61827",
+               "end_address": "12.926642,77.623445"
+            },
+            {
+               "steps": [
+                  {
+                     "instructions": "Head southeast on Sarjapura Road",
+                     "distance": 368,
+                     "readable_distance": "0 km 368 metres",
+                     "maneuver": "depart",
+                     "duration": 53,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.92664,
+                        "lng": 77.62345
+                     },
+                     "end_location": {
+                        "lat": 12.92533,
+                        "lng": 77.62656
+                     },
+                     "bearing_before": 0,
+                     "bearing_after": 114,
+                     "geometry": "ov{mAqywxMfBqFl@iBnBqG"
+                  },
+                  {
+                     "instructions": "Turn right onto Sarjapura Road",
+                     "distance": 329,
+                     "readable_distance": "0 km 329 metres",
+                     "maneuver": "turn-right",
+                     "duration": 55,
+                     "readable_duration": "0 hours 1 minutes",
+                     "start_location": {
+                        "lat": 12.92533,
+                        "lng": 77.62656
+                     },
+                     "end_location": {
+                        "lat": 12.924200000000003,
+                        "lng": 77.62926
+                     },
+                     "bearing_before": 112,
+                     "bearing_after": 196,
+                     "geometry": "in{mA_mxxMPBh@_BhBuFLg@@CZ_AFWF]?M?Y"
+                  },
+                  {
+                     "instructions": "You have arrived at your destination",
+                     "distance": 0,
+                     "readable_distance": "0 km 0 metres",
+                     "maneuver": "arrive",
+                     "duration": 0,
+                     "readable_duration": "0 hours 0 minutes",
+                     "start_location": {
+                        "lat": 12.9242,
+                        "lng": 77.62926
+                     },
+                     "end_location": {
+                        "lat": 12.9242,
+                        "lng": 77.62926
+                     },
+                     "bearing_before": 92,
+                     "bearing_after": 0,
+                     "geometry": "gg{mA{}xxM"
+                  }
+               ],
+               "distance": 698,
+               "readable_distance": "0.70",
+               "duration": 108,
+               "readable_duration": "0 hours 2 minutes",
+               "start_location": {
+                  "lat": 12.926642,
+                  "lng": 77.623445
+               },
+               "end_location": {
+                  "lat": 12.924198,
+                  "lng": 77.629262
+               },
+               "start_address": "12.926642,77.623445",
+               "end_address": "12.924198,77.629262"
+            }
+         ],
+         "overview_polyline": "_q|mAo`vxMXMhBcAHEb@UVOTu@\\kAH]Pq@Je@Fy@hAwEJ[h@qBt@oCpCuJFSHSZeArAaEl@mBd@_BBGfBqFl@iBnBqGPBh@_BhBuFLg@@CZ_AFWF]?M?Y",
+         "travel_advisory": "0,1,0|1,3,5|3,5,5|5,6,5|6,7,0|7,10,0|10,12,0|12,13,0|13,14,0|14,15,0|15,17,0|17,18,0|18,20,0|20,21,0|21,22,0|22,23,0|23,25,0|25,26,0|26,27,0|27,28,10|28,29,0|29,31,0|31,32,0|32,33,0|33,35,0|35,36,0",
+         "bounds": {},
+         "copyrights": "OLA Map data ©2024",
+         "warnings": []
+      }
+   ],
+   "source_from": "Ola Maps"
+}
